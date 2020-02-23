@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: DodgerBlue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: SlateBlue;
+}
+
+div.d1 {
+   margin-top: 25px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 570px;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  align-content: center;
+  height: 600px;
+  width: 400px;
+}
+h1{
+  text-align: center;
+  color: #00BFFF;
+  
+}
+</style>
+<body>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">ABC Hostel Management</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+                <li><a href="index.html" >Home</a></li>
+                <li><a href=form.html >Allocation</a></li>
+                <li><a href="#">Reallocation</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li ><div class="dropdown" >
+            <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Building Wise</a></li>
+          <li><a href="#">Student's Wise</a></li>
+          <li><a href="#">Available rooms</a></li>
+        </ul>
+      </li>
+    </div>
+  </div> </li>
+                    
+        </nav>
+
+<h1 style="font-family: century gothic;" ><font color="#00BFFF">SEEK IN THE BUILDING !</font></h1>
+
+<div class="d1">
+   <form action="admin.php" method="post" >
+<label>Floor No. :</label>
+<input type="text" name="floor" placeholder="Enter Floor Number" required><br><br>
+<label>Room No. :</label>
+<input type="text" name="room" placeholder="Enter Room Number" required><br><br>
+<label>Capacity :</label>
+<input type="text" name="capacity" placeholder="Enter Capacity" required><br><br>
+<label>Availability : </label>
+<input type="text" name="avail" placeholder="Enter Availability" required><br><br>
+<input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

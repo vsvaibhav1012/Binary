@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: DodgerBlue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: SlateBlue;
+}
+
+div {
+   margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 400px;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  align-content: center;
+  height: 600px;
+  width: 400px;
+}
+h1{
+  text-align: center;
+  color: #00BFFF;
+}
+</style>
+<body>
+<header>
+            <h1 style="background-color:#f0f8ff; font-style: oblique; font-family: century gothic;" align="center"><font color="#00BFFF"> Hostel Management System</font></h1>
+           
+        </header>
+<h1 style="font-family: century gothic;">Allocation Form</h1>
+
+<div>
+  <form action="" method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="firstname" placeholder="Your name..">
+
+    <label for="name">Guardian's Name</label>
+    <input type="text" id="gname" name="gname" placeholder="Your Guardian's name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="name">Residential Address</label>
+    <input type="text" id="raddress" name="raddress" placeholder="Your residential address..">
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" placeholder="Your Phone Number..">
+
+    <label for="institute">Institute</label>
+    <input type="text" id="institute" name="institute" placeholder="Your institute..">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

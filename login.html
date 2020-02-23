@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: DodgerBlue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: SlateBlue;
+}
+
+div.d1 {
+   margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 570px;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+  padding: 80px;
+  align-content: center;
+  height: 350px;
+  width: 400px;
+}
+h1{
+  text-align: center;
+  color: #00BFFF;
+}
+</style>
+<body>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+               <header>
+            <h1 style="background-color:#f0f8ff; font-style: oblique; font-family: century gothic;" align="center"><font color="#00BFFF"> Hostel Management System</font></h1>
+           
+        </header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">ABC Hostel Management</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="form.html" >Allocation</a></li>
+                <li><a href="#">Reallocation</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li ><div class="dropdown" >
+            <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Building Wise</a></li>
+          <li><a href="#">Student's Wise</a></li>
+          <li><a href="#">Available rooms</a></li>
+        </ul>
+      </li>
+    </div>
+  </div> </li>
+                    
+        </nav>
+
+<h1 style="font-family: century gothic;"><font color="#00BFFF"> Admin Login</font></h1>
+
+<div class="form-group" >
+  <form action="" method="post">
+    <label for="name">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email">
+
+    <label for="password">Password</label>
+    <input type="text" id="password" name="password" placeholder="Enter your password">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
